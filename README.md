@@ -63,4 +63,4 @@ For more information, news, and discount codes, sign up for the Free Meteor Cand
 
 ## License 
 
-Meteor Candy is brought to your by <a href="http://meteor.toys">Meteor Toys</a>, and is distributed under the <a href="https://github.com/MeteorToys/allthings/blob/master/LICENSE.md">Meteor Toys License</a>.
+Meteor Candy is brought to you by <a href="http://meteor.toys">Meteor Toys</a>, and is distributed under the <a href="https://github.com/MeteorToys/allthings/blob/master/LICENSE.md">Meteor Toys License</a>.
