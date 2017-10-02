@@ -1,3 +1,5 @@
 # Welcome to Meteor Candy
 
-Navigate to ./meteor-candy-config to get started
+Visit Meteor Candy website to learn more. Or navigate to `./meteor-candy-config` to get started.
+
+<img src="https://www.meteorcandy.com/screenshot.png">
