@@ -5,7 +5,7 @@ settings = {
 			domain: {
 				label: "App Domain",
 				type: "string",
-				value: "http://meteorcandy.com",
+				value: "https://www.meteorcandy.com",
 			},
 			waitinglist: {
 				label: "Show Waitinglist",
@@ -77,11 +77,6 @@ settings = {
 				type: "boolean",
 				value: true,
 			},
-			freeTrial: {
-				label: "Display Free Trial",
-				type: "boolean",
-				value: true,
-			}
 		}
 	},
 }

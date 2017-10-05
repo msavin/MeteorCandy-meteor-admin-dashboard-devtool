@@ -4,7 +4,7 @@ var functions = [
 		parameters: {
 			filler: {
 				type: "readOnly",
-				value: 'This function demonstrates how Meteor Candy would print HTML. Click "Submit" to try it.'
+				value: 'This function demonstrates how Meteor Candy would print HTML. When you click "Submit", it will run a function on the server and then display the result.'
 			},
 			text: {
 				label: "Text",
@@ -45,7 +45,7 @@ var functions = [
 		parameters: {
 			filler: {
 				type: "readOnly",
-				value: 'This function demonstrates how Meteor Candy would print JSON. Click "Submit" to try it.'
+				value: 'This function demonstrates how Meteor Candy would print JSON. When you click "Submit", it will run a function on the server and then display the result.'
 			},
 			number: {
 				label: "Number",
@@ -92,7 +92,7 @@ var functions = [
 			parameters: {
 				filler: {
 					type: "readOnly",
-					value: 'This function demonstrates how Meteor Candy would print regular text. Click "Submit" to try it.'
+					value: 'This function demonstrates how Meteor Candy would print text. When you click "Submit", it will run a function on the server and then display the result.'
 				},
 				text: {
 					label: "Text",
@@ -112,7 +112,7 @@ var functions = [
 		parameters: {
 			filler: {
 				type: "readOnly",
-				value: "This is for routine data cleaning. For example, maybe you want to clear your MongoDB logs to save on storage, but prefer to do it on your initiative rather than a systems."
+				value: "This is a sample function of how data cleaning could work. For example, maybe you want to clear your MongoDB logs to save on storage, but prefer to do it on your initiative rather than a systems."
 			},
 			days: {
 				label: "Number of Days Ago",
@@ -141,7 +141,10 @@ var functions = [
 	}, {
 		name: "Send Push Notification",
 		parameters: {
-
+			filler: {
+				type: "readOnly",
+				value: "Your app may automatically send push notifications - but sometimes you might want to send something unique. Here's one way that you could make that work."
+			},
 			freeUsers: {
 				label: "Send to Free Users",
 				type: "boolean",
@@ -182,8 +185,12 @@ var functions = [
  			}
 		}
 	}, {
-		name: "Get Customer Emails (CSV) ",
+		name: "Export Member Emails (CSV) ",
 		parameters: {
+			filler: {
+				type: "readOnly",
+				value: "Your client may want to be able to export their member list emails. However, you have to run an expensive process to do that. One way to make life easier is to enable them to get it in an email when it's ready."
+			},
 			email: {
 				label: "Send to Email Address",
 				type: "string",
@@ -226,7 +233,7 @@ var functions = [
 		parameters: {
 			filler: {
 				type: "readOnly",
-				value: 'This function has no inputs. Once you run it, it will return some data from the server.'
+				value: 'This function has no inputs. Once you run it, it will get some data from the server and display it in the appropriate format.'
 			},
 		},
 		server: function () {
@@ -237,11 +244,11 @@ var functions = [
 		parameters: {
 			filler: {
 				type: "readOnly",
-				value: 'This function has no inputs. Once you run it, it will return some data from the server.'
+				value: 'This function has no inputs. Once you run it, it will get some data from the server and display it in the appropriate format.'
 			},
 		},
 		server: function () {
-			return "Thank you for your curiosity! The coupon code is 'inputs'."
+			return "Thank you for your curiosity! The coupon code is 'output'."
 		}
 	}, {
 		name: "Test Client Callback",

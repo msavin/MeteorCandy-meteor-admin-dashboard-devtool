@@ -1,5 +1,9 @@
 import { helpers } from '../_helpers';
 
+// Name -> The name that will be displayed on the sidebar
+// Value -> The badge that will be displayed on the sidebar (optional)
+// Content -> The data that will be displayed with-in the main view
+
 data = [
 	{
 		name: "Total Accounts",
@@ -37,6 +41,12 @@ data = [
 		name: "Sample Data",
 		content: function () {
 			// Data should be returned as an array of objects. 
+			
+			// Each object with-in an array must contain:
+			//  - name : the label for the data field
+			//  - value : the value for the data field
+
+			// If value is JSON, then it will as such
 			return [
 				{
 					name: "Lists Collection",

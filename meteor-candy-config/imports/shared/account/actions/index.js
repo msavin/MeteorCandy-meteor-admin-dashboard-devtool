@@ -14,7 +14,7 @@ actions = [
 	}, {
 		name: "Change Password",
 		prompt: "To what would you like to change the password to?",
-		c: "_hasPassword",
+		require: "_hasPassword",
 		server: function (userId, param) {
 			Accounts.setPassword(userId, param)
 		},
