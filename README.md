@@ -4,12 +4,16 @@ Meteor Candy is an admin panel for Meteor.js. It contains support for account ma
 
 <img src="https://raw.githubusercontent.com/msavin/MeteorCandy-meteor-admin/master/screenshot.png">
 
-# Getting Started
+## Getting Started
 
 1. Copy `./meteor-candy-config` folder from this repository into `./meteorapp/packages/meteor-candy-config`
 2. Run `meteor add meteor-candy-config meteor-candy-blaze meteor-candy`
 3. Open your web app and press Control + D
 
-# License
+# Compared to yogiben/meteor-admin and related forks
+
+Meteor Candy takes a new and modern approach to building admin panels. First, it uses carefully scoped code and dynamic imports to ensure that no burden is added to your client. Second, it only uses methods to retrieve data, and does so in a scalable and high performance way. Finally, it's all about your configuration, rather than being about plug and play.
+
+## License
 
 Meteor Candy is a proprietary product with a custom license. It's free to use in development, but requires a paid license to be used in production.
