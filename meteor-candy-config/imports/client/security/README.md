@@ -2,15 +2,10 @@
 
 The settings here define how the client would be opened, and under what conditions it should happen.
 
-`keyCode` refers to which key would trigger Meteor Candy to open. Currently, its set to the character D, and so, pressing Control + D would trigger Meteor Candy to launch.
-
-To find an alternative keycode, you can go to:
-http://keycode.info/
-
-`permission` refers to which logic must return true for Meteor Candy to be imported. With-in it, you can write virtually any client side logic, such as:
+`permission` refers to which logic must return true for Meteor Candy to be imported. With-in it, you can write  any client side logic, such as:
 
 ```javascript
-if (Meteor.user() && Meteor.user().admin) {
+if (Meteor.user() && Meteor.user().profile && Meteor.user().profile.admin) {
 	return true;
 }
 ```

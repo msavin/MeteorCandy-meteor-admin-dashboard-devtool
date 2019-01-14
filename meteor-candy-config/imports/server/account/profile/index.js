@@ -1,6 +1,6 @@
 import { helpers } from '../../_helpers'
 
-profile = [
+var profile = [
 	{
 		name: "_id",
 		field: "_id",
@@ -16,6 +16,7 @@ profile = [
 	}, {
 		name: "_avatar",
 		field: null,
+		sanitize: false,
 		content: function (data) {
 			return helpers.account.avatar(data);
 		} 

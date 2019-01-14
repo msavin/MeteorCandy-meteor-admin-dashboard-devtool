@@ -1,11 +1,11 @@
-packageList = {
+var packageList = {
 	email: {
 		name: "Email",
 		package: "accounts-password",
 		field: "emails.address",
-		avatar: "emails.address",
-		avatarLogic: function (emails) {
-			return;
+		avatar: "profile.avatar",
+		avatarLogic: function (avatar) {
+			return avatar;
 			// Could implement Gravatar here but its hard to find an MIT licensed MD5 library
 			// If you end up doing it, you will probably want to use: emails[0].address; 
 		}
@@ -65,7 +65,7 @@ packageList = {
 	}
 };
 
-packages = function () {
+var packages = function () {
 	result = []
 
 	Object.keys(packageList).forEach(function (package) {

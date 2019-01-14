@@ -3,30 +3,31 @@
 import { profile } from '../imports/server/account/profile'
 import { packages } from '../imports/server/account/packages'
 import { data } from '../imports/server/data'
+import { table } from '../imports/server/table'
 import { security } from '../imports/server/security'
 import { settings } from '../imports/server/settings'
-import { defaults } from '../imports/server/default'
 
-server = {
-	default: defaults,
+
+var server = {
 	account: {
 		profile: profile,
 		packages: packages,
 	},
+	table: table,
 	data: data,
 	security: security,
 	settings: settings
 }
 
-// Second, import shared code
+// Then, import shared code
 
-import { actions } from '../imports/shared/account/actions'
+import { tasks } from '../imports/shared/account/tasks'
 import { security as sharedSecurity } from '../imports/shared/security';
 import { functions } from '../imports/shared/functions';
 
-shared = {
+var shared = {
 	account: {
-		actions: actions,
+		tasks: tasks,
 	},
 	security: sharedSecurity,
 	functions: functions
@@ -34,7 +35,7 @@ shared = {
 
 // Finally, assemble and export
 
-Config = {
+var Config = {
 	server: server,
 	shared: shared
 }

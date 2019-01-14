@@ -1,11 +1,24 @@
-settings = {
+var settings = {
 	appControls: {
 		label: "Application Controls",
 		fields: {
 			domain: {
 				label: "App Domain",
+				type: "select",
+				options: [{
+					label: "Meteor Candy - Official",
+					value: "http://meteorcandy.com",
+				}, {
+					label: "Meteor Candy - Unofficial",
+					value: "http://meteorcandies.com",
+					default: true
+				}],
+			},
+			description: {
+				label: "App Description",
 				type: "string",
-				value: "https://www.meteorcandy.com",
+				value: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+				lines: 10
 			},
 			waitinglist: {
 				label: "Show Waitinglist",
@@ -77,6 +90,11 @@ settings = {
 				type: "boolean",
 				value: true,
 			},
+			freeTrial: {
+				label: "Display Free Trial",
+				type: "boolean",
+				value: true,
+			}
 		}
 	},
 }

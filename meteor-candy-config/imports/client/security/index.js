@@ -1,9 +1,7 @@
-security = {
-	keyCode: 68,
-
-	// This function must return true for Meteor Candy to run in production
-	permission: function (userDoc) {
-		return false; 
+var security = {
+	authorize: function () {
+		// This function must return true for Meteor Candy to display in production
+		return true; 
 	}
 }
 

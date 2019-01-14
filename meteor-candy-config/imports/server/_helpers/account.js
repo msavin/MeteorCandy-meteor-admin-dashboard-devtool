@@ -1,9 +1,9 @@
 import { packages as Packages } from "../account/packages"
 
-helpers = {
+var helpers = {
 	date: function (date) {
-		months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-		days = ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+		var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+		var days = ["Sunday","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 		month = months[date.getMonth()];
 		day   = days[date.getDay()];
@@ -13,8 +13,8 @@ helpers = {
 		return day + ", " + month + " " + dayNumber + ", " + year;
 	},
 	time: function (date) {
-		time = date.toLocaleString('en-US', { hour: 'numeric',minute:'numeric', hour12: true });
-		timezone = date.toTimeString().match(/\((.+)\)/)[1];
+		var time = date.toLocaleString('en-US', { hour: 'numeric',minute:'numeric', hour12: true });
+		var timezone = date.toTimeString().match(/\((.+)\)/)[1];
 		
 		return time + " (" + timezone + ")";
 	},
@@ -35,9 +35,9 @@ helpers = {
 		return userDoc;
 	},
 	displayName: function (doc) {
-		self = this;
+		var self = this;
 
-		Namer = {
+		var Namer = {
 			result: "",
 			counter: 0,
 			addToResult: function (name) {
@@ -77,8 +77,8 @@ helpers = {
 		return Namer.result;
 	},
 	avatar: function (document) {
-		self = this;
-		photo = null;
+		var self = this;
+		var photo = null;
 
 		Packages.forEach(function (package) {
 			if (package.avatar) {
@@ -103,8 +103,8 @@ helpers = {
 		return photo;
 	},
 	email: function (data) {
-		emailString = "";
-		number = 0;
+		var emailString = "";
+		var number = 0;
 
 		data.forEach(function (email) {
 			
@@ -112,7 +112,7 @@ helpers = {
 				emailString = emailString + ", ";
 			}
 
-			number = number++;
+			number = number + 1;
 			emailString = emailString + email.address;
 		});
 

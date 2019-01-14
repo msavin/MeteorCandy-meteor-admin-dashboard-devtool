@@ -1,4 +1,4 @@
-security = {
+var security = {
 	// Instead of defining permissions, 
 	// you can just list the userId's of who is allowed to use Meteor Candy
 	whitelist: [],

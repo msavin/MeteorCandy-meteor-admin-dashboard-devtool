@@ -1,7 +1,7 @@
 Package.describe({
   name: 'meteor-candy-config',
-  summary: 'Configuration Kit for Meteor Candy',
-  version: '2.0.0'
+  summary: 'Meteor Candy configuration package',
+  version: '4.0.0'
 });
 
 Package.onUse(function(api) {
