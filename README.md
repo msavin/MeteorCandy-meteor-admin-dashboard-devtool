@@ -26,7 +26,7 @@ Meteor Candy can be installed in a few minutes, and configured in a few hours. A
 
 ## Configuration Sample
 
-Feel free to browse the `./meteor-candy-config` folder to see configuration options and their associated documentation. Here is a quick example of how easy it is to configure a table. **Meteor Candy will automatically set up pagination, search, sorting, and more.** Meteor Candy will not release any additional data beyond what you specify in the `fields` array.
+Feel free to browse the `./meteor-candy-config` folder to see configuration options and their associated documentation. Here is an example of how easy it is to configure a table. **Meteor Candy will automatically set up pagination, search, sorting, and more.** Meteor Candy will not release any additional data beyond what you specify in the `fields` array.
 
 ```javascript
 var subscriberData = {
