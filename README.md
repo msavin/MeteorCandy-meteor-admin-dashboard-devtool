@@ -4,8 +4,8 @@
 Manage your production application with Meteor Candy, the admin panel made just for Meteor. With tight integrations into Meteor's core packages, this package is the fastest and simplest way to empower your team with:
 
 - Account Management
-- Data Tables
 - Data Reports
+- Data Tables
 - Custom Functions
 - Settings
 
