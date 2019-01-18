@@ -21,9 +21,9 @@ You can install Meteor Candy in a few minutes, and configure it to work with you
 2. Run `meteor add meteor-candy-config meteor-candy-blaze meteor-candy` to add the configuration package, and download the core packages, to your application
 3. Open your web app and press Control + D to launch Meteor Candy
 
-## Compared to yogiben:meteor-admin and related forks
+## Compared to yogiben:meteor-admin, gterrono:houston and related forks
 
-Meteor Candy takes a new and modern approach to building admin panels. First, it uses carefully scoped code and dynamic imports to ensure that no burden is added to your client. Second, it only uses methods to retrieve data, and does so in a scalable and high performance way. Finally, it's all about your configuration, rather than trying to guess its way through plug and play.
+Meteor Candy is a modern and constantly updated solution. First, it uses carefully scoped code and dynamic imports to ensure that no burden is added to your client. Second, it only uses methods to retrieve data, and does so in a scalable and high performance way. Finally, it's all about your configuration, rather than trying to guess its way through plug and play.
 
 ## License
 
