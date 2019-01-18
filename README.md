@@ -25,6 +25,10 @@ You can install Meteor Candy in a few minutes, and configure it to work with you
 
 Meteor Candy is a modern and constantly updated solution. First, it uses carefully scoped code and dynamic imports to ensure that no burden is added to your client. Second, it only uses methods to retrieve data, and does so in a scalable and high performance way. Finally, it's all about your configuration, rather than trying to guess its way through plug and play.
 
+## Premium Support
+
+Every purchase of Meteor Candy comes with a free, one hour consultation. If you need additional help setting up Meteor Candy, please see <a href="https://www.toyshop.ooo">Toy Shop</a>.
+
 ## License
 
 Meteor Candy is a proprietary product with a custom license. It's free to use in development, but requires a paid license to be used in production. For more information, please visit the <a href="https://www.meteorcandy.com">product website</a>.
