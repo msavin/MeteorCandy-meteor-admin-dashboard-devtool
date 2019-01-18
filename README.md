@@ -21,7 +21,7 @@ Meteor Candy can be installed in a few minutes, and configured in a few hours. A
     - You folder path should look like this: `mymeteorapp/packages/meteor-candy-config`
     - The package.js file path should look like this: `mymeteorapp/packages/meteor-candy-config/package.js`
 2. Install the configuration package, then the front-end package, then the core package
-    - run `meteor add meteor-candy-config meteor-candy-blaze meteor-candy`
+    - run `meteor add meteor-candy-config meteorcandy:blaze meteorcandy:core`
 3. Open your web app and press Control + D to launch Meteor Candy
 
 ## Configuration Sample
