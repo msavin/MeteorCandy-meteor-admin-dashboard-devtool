@@ -9,7 +9,7 @@ Manage your production application with Meteor Candy, the admin panel made just 
 - Custom Functions
 - Settings
 
-Meteor Candy comes pre-configured with features such as account impersonation, activity logging, and more. However, the real magic is when you configure it work with your application and collections. For more information, and a live demo, please visit the <a href="https://www.meteorcandy.com">product website</a>.
+**Meteor Candy comes pre-configured with features such as account impersonation, activity logging, and more.** However, the real magic is when you configure it work with your application and collections. For more information, and a live demo, please visit the <a href="https://www.meteorcandy.com">product website</a>.
 
 <img src="https://raw.githubusercontent.com/msavin/MeteorCandy-meteor-admin/master/screenshot.png">
 
