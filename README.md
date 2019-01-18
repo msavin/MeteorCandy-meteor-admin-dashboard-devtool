@@ -58,7 +58,7 @@ var subscriberData = {
 
 ## Compared to yogiben:meteor-admin, gterrono:houston and related forks
 
-**Meteor Candy is an up-to-date and constantly updated solution.** First, it uses carefully scoped code and dynamic imports to ensure that no burden is added to your client or server. Second, it only uses methods to retrieve data, and does so in a scalable and high performance way. Finally, it's all about your configuration, rather than trying to guess its way through plug and play.
+**Meteor Candy is an up-to-date and constantly updated solution.**  First, it uses carefully scoped code and dynamic imports to ensure no burden is added to your client or server. Second, it uses methods to retrieve data in a scalable and performant way. Finally, it's all about your configuration, rather than trying to guess its way through plug and play.
 
 ## Premium Support
 
