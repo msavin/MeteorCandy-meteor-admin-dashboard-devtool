@@ -1,7 +1,7 @@
 # Meteor Candy
 ### The Fast, Secure and Scalable Admin Panel for Meteor.js
 
-Manage your production application with Meteor Candy, the admin panel made just for Meteor. With tight integrations into Meteor's core packages, such as `accounts` and `mongo`, this package is the ultimate way to add an admin panel to your application.
+Manage your production application with Meteor Candy, the admin panel made just for Meteor. With tight integrations into Meteor's core packages, such as `accounts` and `mongo`, this package is the ultimate way to add an admin panel to your application. You can cover just about any feature you'd need with the built-in:
 
 - Account Management
 - Data Reports
