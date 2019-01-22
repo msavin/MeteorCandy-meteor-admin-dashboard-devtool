@@ -1,3 +1,5 @@
+<img src="https://logs-01.loggly.com/inputs/4d00af93-45e7-4e36-b721-1ac3b5b00f1d.gif?source=pixel&data=hello" />
+
 # Meteor Candy
 ### The Fast, Secure and Scalable Admin Panel for Meteor.js
 
