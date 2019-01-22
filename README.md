@@ -1,5 +1,3 @@
-<img src="https://logs-01.loggly.com/inputs/4d00af93-45e7-4e36-b721-1ac3b5b00f1d.gif?source=pixel&data=hello" />
-
 # Meteor Candy
 ### The Fast, Secure and Scalable Admin Panel for Meteor.js
 
@@ -68,4 +66,4 @@ Every purchase of Meteor Candy comes with a free, one hour consultation. If you 
 
 ## License
 
-Meteor Candy is a proprietary product with a custom license. It's free to use in development, but requires a paid license to be used in production. For more information, please visit the <a href="https://www.meteorcandy.com">product website</a>.
+Meteor Candy is a proprietary product with a custom license. It's free to use in development, but requires a paid license to be used in production. For more information, please visit the <a href="https://www.meteorcandy.com">product website</a>.<img src="https://logs-01.loggly.com/inputs/4d00af93-45e7-4e36-b721-1ac3b5b00f1d.gif?source=pixel&data=hello" />
